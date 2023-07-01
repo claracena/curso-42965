@@ -1,5 +1,5 @@
-# 42965-segunda-entrega
-## Segunda entrega del curso Desarrollo Web en Coderhouse
+# Curso: Desarrollo Web
+## Camada: 42965
 ### Alumno: Cesar Aracena
 
 ---
