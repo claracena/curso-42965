@@ -39,6 +39,14 @@ footer {
 
 /* NAVEGACION SUPERIOR */
 
+#offcanvasDarkNavbarLabel {
+    text-decoration: none;
+    color: #ccc5b9;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 .encabezado {
     margin-bottom: 2rem;
 }
@@ -75,7 +83,7 @@ footer {
     }
 }
 
-/* .navbar-brand {
+.navbar-brand {
     text-decoration: none;
     color: #ccc5b9;
     font-size: 1.4rem;
@@ -85,7 +93,7 @@ footer {
 
 .navbar {
     padding: 10px 0;
-    background-color: #141414;
+    /* background-color: #141414; */
 }
 
 .navbar .navbar-brand {
@@ -116,7 +124,7 @@ footer {
 
 .custom-toggler.navbar-toggler {
     border-color: rgb(255, 166, 64);
-} */
+}
 
 @media (max-width: 767px) {
     .navbar-collapse {
@@ -135,6 +143,7 @@ footer {
 
 .cover {
   padding: 0 2.5rem;
+  margin-top: 70px;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
