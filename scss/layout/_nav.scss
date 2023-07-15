@@ -11,11 +11,29 @@
 }
 
 .encabezado-brand {
-    @include special-text(0, 0, 2px, 1.4rem, null, uppercase, none, $color-light-3);
+    @include special-text(
+        0,
+        0,
+        2px,
+        1.4rem,
+        null,
+        uppercase,
+        none,
+        $color-light-3
+    );
 }
 
 .nav-encabezado .nav-link {
-    @include special-text(0, 0.25rem 0, null, null, null, null, null, $color-light-1);
+    @include special-text(
+        0,
+        0.25rem 0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        $color-light-1
+    );
 }
 
 .nav-encabezado .nav-link + .nav-link {
@@ -36,7 +54,16 @@
 }
 
 .navbar-brand {
-    @include special-text(null, null, 2px, 1.4rem, null, uppercase, none, $color-light-3);
+    @include special-text(
+        null,
+        null,
+        2px,
+        1.4rem,
+        null,
+        uppercase,
+        none,
+        $color-light-3
+    );
 }
 
 .navbar {
@@ -53,7 +80,16 @@
 }
 
 .navbar-nav .nav-item .nav-link {
-    @include special-text(null, null, null, 0.9rem, null, uppercase, null, $color-light-3);
+    @include special-text(
+        null,
+        null,
+        null,
+        0.9rem,
+        null,
+        uppercase,
+        null,
+        $color-light-3
+    );
 }
 
 .navbar-nav .nav-item .nav-link.active {
@@ -64,7 +100,7 @@
     color: $color-light-2;
 }
 
-[data-bs-theme=dark] .navbar-toggler-icon {
+[data-bs-theme="dark"] .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,166,64, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
