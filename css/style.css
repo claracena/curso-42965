@@ -107,19 +107,17 @@ a:link {
   color: #E8EDED; }
 
 [data-bs-theme="dark"] .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,166,64, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important; }
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,166,64, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important; }
+  background-image: url(../../assets/icons/9042808_menu_icon.png); }
 
 .navbar-toggler {
-  /* border-color: #ffa640 !important; */
+  background-color: #FFA640;
   border: var(--bs-border-width) solid #FFA640 !important; }
 
 .navbar-toggler-icon {
   width: 1rem !important;
   height: 1rem !important;
-  vertical-align: inherit; }
+  vertical-align: inherit;
+  background-color: #FFA640; }
 
 @media (max-width: 767px) {
   .navbar-collapse {
