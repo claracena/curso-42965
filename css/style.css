@@ -192,3 +192,9 @@ main .card-group .card img {
   background-color: #FFA640;
   color: black;
   font-weight: 700; }
+
+.progress {
+  margin-bottom: 1rem !important; }
+
+i[class^="bi-"] {
+  color: #FFA640 !important; }
